@@ -5,7 +5,7 @@ class RedditSpider(scrapy.Spider):
     name = 'RedditSpider'
     allowed_domains = ['https://www.reddit.com/']
 
-    file = open('allowed_domains.txt', 'r')
+    file = open('start_urls.txt', 'r')
     start_urls = [line.rstrip('\n') for line in file]
     file.close()
 
