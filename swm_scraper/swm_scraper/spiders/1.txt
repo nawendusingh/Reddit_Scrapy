@@ -1,0 +1,15 @@
+
+
+reddit scraper
+To Install
+
+create a virtual environment with:
+
+pipenv --python 3.6.9 install Scrapy
+
+after installation :
+
+pipenv shell && code .(if using vscode)
+To run from cmd
+
+scrapy runspider spiders/redditSpider.py(from the 'swm_scraper' folder)
